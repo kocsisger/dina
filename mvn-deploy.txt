@@ -1,0 +1,7 @@
+mvn deploy:deploy-file \
+-Durl=file:///Users/mateszell/Projects/Workspaces/___DiNA/DiNA/etc/repo/ \
+-Dfile=/Users/mateszell/Projects/Workspaces/___DiNA/Commons/build/libs/dina-commons-1.0-SNAPSHOT.jar \
+-DgroupId=hu.unideb.inf \
+-DartifactId=dina-commons \
+-Dpackaging=jar \
+-Dversion=1.0-SNAPSHOT
